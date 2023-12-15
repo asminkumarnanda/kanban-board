@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kanban">
+    <div class="kanban__column">
+      <div class="kanban__column__title">TODO</div>
+        <div class="kanban__items"> 
+          <div contenteditable="" class="kanban__item__input" draggable="true"></div>
+        
+        </div>
+        <button class="kanban__add__item" type="button">+ Add</button>
+    </div>
+    <div class="kanban__column">
+      <div class="kanban__column__title">Doing</div>
+        <div class="kanban__items"> 
+          <!-- <div contenteditable="" class="kanban__item__input" draggable="true">Wash The Dishes</div> -->
+        
+        </div>
+    </div>
+    <div class="kanban__column">
+      <div class="kanban__column__title">Done</div>
+        <div class="kanban__items"> 
+          <!-- <div contenteditable="true" class="kanban__item__input" draggable="true">Wash The Dishes</div> -->
+        
+        </div>
+    
+    </div>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
